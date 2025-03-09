@@ -1,0 +1,9 @@
+Flask
+
+pandas
+numpy
+matplotlib
+requests
+optbinning
+
+flask-swagger-ui

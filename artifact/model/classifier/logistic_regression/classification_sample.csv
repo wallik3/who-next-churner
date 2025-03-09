@@ -1,0 +1,161 @@
+SeniorCitizen,Partner,Dependents,tenure,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,y_true,y_pred,y_prob,label,split
+0,No,No,55,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,96.8,5283.95,1,1,0.6735464925822161,True Positive,train
+1,Yes,Yes,4,DSL,No,No,No,No,No,No,Month-to-month,No,Electronic check,46.0,181.6,1,1,0.6746964090870453,True Positive,train
+0,Yes,Yes,40,Fiber optic,No,No,Yes,Yes,No,No,Month-to-month,Yes,Electronic check,84.85,3303.05,1,1,0.6749076036935773,True Positive,train
+0,No,No,5,DSL,No,No,No,Yes,No,No,Month-to-month,Yes,Electronic check,49.2,216.9,1,1,0.6749449302148041,True Positive,train
+0,No,No,4,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,46.0,193.6,1,1,0.6754160968786327,True Positive,train
+0,No,No,3,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,50.65,151.3,1,1,0.6754160968786327,True Positive,train
+0,No,No,4,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,45.3,196.95,1,1,0.6754160968786327,True Positive,train
+0,Yes,Yes,8,DSL,No,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,51.05,415.05,1,1,0.6756667920177465,True Positive,train
+1,No,No,10,DSL,No,No,No,Yes,No,No,Month-to-month,Yes,Electronic check,29.65,291.4,1,1,0.6757263828314289,True Positive,train
+0,No,No,34,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),70.0,2416.1,1,1,0.6761257412110954,True Positive,train
+0,Yes,Yes,21,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),74.05,1565.7,1,1,0.6768209734274871,True Positive,train
+0,No,No,23,Fiber optic,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,104.05,2470.1,1,1,0.6772428185069744,True Positive,train
+1,Yes,No,41,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,Yes,Bank transfer (automatic),83.75,3273.55,1,1,0.6772456811821196,True Positive,train
+0,Yes,No,29,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),80.15,2265.25,1,1,0.6777462844749418,True Positive,train
+1,No,No,27,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,No,Credit card (automatic),88.3,2467.75,1,1,0.6777836497356661,True Positive,train
+1,No,No,5,DSL,No,Yes,No,No,No,No,Month-to-month,No,Electronic check,28.45,131.05,1,1,0.6780852072248712,True Positive,train
+0,Yes,No,23,Fiber optic,Yes,Yes,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,99.25,2186.4,1,1,0.6784657642658763,True Positive,train
+1,Yes,Yes,40,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),94.55,3640.45,1,1,0.679492279413967,True Positive,train
+1,Yes,No,43,Fiber optic,No,No,Yes,Yes,Yes,Yes,One year,Yes,Electronic check,107.55,4533.9,1,1,0.6809115017543168,True Positive,train
+1,No,No,29,Fiber optic,No,No,No,Yes,Yes,Yes,Month-to-month,No,Electronic check,98.65,2862.75,1,1,0.6814756897656271,True Positive,train
+0,No,No,44,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,90.4,4063.0,0,0,0.6735225261287644,True Negative,train
+0,No,No,1,DSL,Yes,Yes,No,No,No,No,Month-to-month,No,Electronic check,61.15,61.15,0,0,0.6734781276391069,True Negative,train
+0,No,No,42,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Electronic check,79.9,3313.4,0,0,0.6733608073166317,True Negative,train
+1,No,No,4,DSL,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),50.95,207.35,0,0,0.6730017840705238,True Negative,train
+0,Yes,No,17,Fiber optic,Yes,No,No,No,No,No,Month-to-month,No,Electronic check,78.9,1348.95,0,0,0.6729693112020475,True Negative,train
+0,Yes,No,18,Fiber optic,Yes,No,No,No,No,No,Month-to-month,No,Electronic check,74.8,1438.05,0,0,0.6729693112020475,True Negative,train
+1,Yes,No,35,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Bank transfer (automatic),102.05,3452.55,0,0,0.6723560288485113,True Negative,train
+1,No,No,42,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),79.35,3344.1,0,0,0.6718732305401106,True Negative,train
+0,No,No,34,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,85.35,2896.6,0,0,0.6713256015744989,True Negative,train
+0,Yes,Yes,2,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Mailed check,30.25,63.75,0,0,0.671058156758224,True Negative,train
+1,Yes,No,30,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Mailed check,77.9,2351.45,0,0,0.670955111938839,True Negative,train
+0,No,No,17,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Bank transfer (automatic),70.5,1165.6,0,0,0.6705347408425979,True Negative,train
+1,No,No,45,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),93.9,4200.25,0,0,0.6704737151744562,True Negative,train
+0,No,No,48,Fiber optic,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,103.85,4946.05,0,0,0.670342644572234,True Negative,train
+1,Yes,No,37,Fiber optic,No,No,Yes,Yes,Yes,No,Month-to-month,No,Electronic check,90.0,3371.75,0,0,0.6701972781976617,True Negative,train
+0,Yes,No,4,DSL,No,No,Yes,No,Yes,No,Month-to-month,No,Electronic check,65.6,250.1,0,0,0.6701747738991845,True Negative,train
+0,No,No,24,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,Yes,Bank transfer (automatic),84.85,2048.8,0,0,0.6701292340365579,True Negative,train
+1,Yes,No,49,Fiber optic,Yes,Yes,Yes,No,No,No,Month-to-month,Yes,Electronic check,88.2,4159.45,0,0,0.669808645943492,True Negative,train
+0,Yes,Yes,34,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,84.05,2909.95,0,0,0.6685858145278187,True Negative,train
+0,No,No,24,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),99.65,2404.85,0,0,0.6681634242130657,True Negative,train
+0,Yes,Yes,43,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),92.55,4039.0,0,1,0.6750706963863731,False Positive,train
+0,No,No,2,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,45.85,105.6,0,1,0.6754160968786327,False Positive,train
+0,No,No,39,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),73.15,2730.85,0,1,0.6761257412110954,False Positive,train
+0,No,No,29,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),76.0,2215.25,0,1,0.6761257412110954,False Positive,train
+0,No,No,26,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),69.05,1815.65,0,1,0.6761257412110954,False Positive,train
+0,No,No,43,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),75.35,3161.4,0,1,0.6761257412110954,False Positive,train
+1,Yes,No,48,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),70.65,3545.05,0,1,0.677067186128321,False Positive,train
+0,No,No,18,Fiber optic,No,No,No,Yes,No,No,Month-to-month,Yes,Bank transfer (automatic),75.9,1373.05,0,1,0.6775447712204471,False Positive,train
+0,Yes,No,23,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,No,Mailed check,90.15,2044.95,0,1,0.6775489163497215,False Positive,train
+0,Yes,Yes,37,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,88.8,3340.55,0,1,0.6779437514914309,False Positive,train
+1,Yes,No,36,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),91.95,3301.05,0,1,0.678041586653858,False Positive,train
+0,No,Yes,1,DSL,No,No,No,No,No,No,Month-to-month,No,Mailed check,24.7,24.7,0,1,0.678308009820733,False Positive,train
+0,No,No,8,DSL,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,59.25,436.6,0,1,0.6794208086445128,False Positive,train
+0,Yes,No,35,Fiber optic,No,No,No,Yes,No,Yes,Month-to-month,Yes,Bank transfer (automatic),89.85,3161.2,0,1,0.6809727816698609,False Positive,train
+0,Yes,No,16,Fiber optic,Yes,Yes,Yes,No,No,No,Month-to-month,No,Electronic check,90.7,1374.9,0,1,0.681232913343425,False Positive,train
+1,No,No,7,DSL,No,Yes,No,Yes,No,Yes,Month-to-month,Yes,Electronic check,44.4,265.8,0,1,0.6816106944084807,False Positive,train
+0,No,No,40,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Mailed check,102.65,4108.15,0,1,0.682273530540534,False Positive,train
+0,No,Yes,36,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,94.7,3512.5,0,1,0.6827575445514477,False Positive,train
+1,Yes,No,43,Fiber optic,Yes,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,94.5,4156.8,0,1,0.6831261590128409,False Positive,train
+0,No,No,25,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Mailed check,84.6,2088.05,0,1,0.6837613444018452,False Positive,train
+0,Yes,No,20,Fiber optic,Yes,No,No,No,No,No,Month-to-month,No,Electronic check,82.4,1592.35,1,0,0.6729693112020475,False Negative,train
+0,No,No,14,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,50.75,712.75,1,0,0.6716544239298838,False Negative,train
+0,No,Yes,4,Fiber optic,No,No,No,Yes,No,No,Month-to-month,No,Credit card (automatic),80.8,332.45,1,0,0.6715754861385349,False Negative,train
+1,No,No,1,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,19.45,19.45,1,0,0.6709842785095663,False Negative,train
+0,No,No,2,DSL,Yes,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,70.75,146.9,1,0,0.6705097919666281,False Negative,train
+1,No,No,12,DSL,No,No,Yes,Yes,No,Yes,Month-to-month,Yes,Electronic check,43.65,526.95,1,0,0.667914242934543,False Negative,train
+1,Yes,No,18,Fiber optic,No,No,No,Yes,Yes,Yes,Month-to-month,No,Bank transfer (automatic),99.75,1836.25,1,0,0.6670916627088299,False Negative,train
+0,Yes,Yes,14,Fiber optic,No,Yes,No,Yes,No,Yes,Month-to-month,Yes,Credit card (automatic),89.65,1208.35,1,0,0.6666484621142418,False Negative,train
+0,No,No,17,Fiber optic,Yes,No,No,No,Yes,Yes,Month-to-month,No,Electronic check,93.85,1625.65,1,0,0.6663334046927369,False Negative,train
+0,No,No,40,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),104.5,4036.85,1,0,0.6630729372233588,False Negative,train
+0,No,No,22,Fiber optic,Yes,No,No,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),101.35,2317.1,1,0,0.6624844742619483,False Negative,train
+0,Yes,No,42,Fiber optic,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),106.15,4512.7,1,0,0.6620084656614539,False Negative,train
+1,Yes,No,57,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Electronic check,100.6,5746.15,1,0,0.661984870832774,False Negative,train
+1,Yes,No,27,Fiber optic,Yes,No,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),75.2,1929.35,1,0,0.6612741401249259,False Negative,train
+1,Yes,No,56,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),100.65,5688.05,1,0,0.6611527743194171,False Negative,train
+0,No,Yes,27,Fiber optic,No,No,No,Yes,No,No,Month-to-month,Yes,Electronic check,79.5,2180.55,1,0,0.6607260916604698,False Negative,train
+0,No,No,45,Fiber optic,No,No,Yes,Yes,No,No,Month-to-month,Yes,Electronic check,87.25,3941.7,1,0,0.6598835917032314,False Negative,train
+0,Yes,No,20,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,24.45,482.8,1,0,0.6598007659506436,False Negative,train
+1,No,No,25,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,No,Mailed check,105.95,2655.25,1,0,0.6596496676323743,False Negative,train
+0,No,No,26,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,No,Electronic check,89.8,2335.3,1,0,0.6593396485848917,False Negative,train
+1,No,No,7,Fiber optic,Yes,No,No,No,No,No,Month-to-month,No,Bank transfer (automatic),76.45,503.6,1,1,0.6883940801431475,True Positive,val
+0,Yes,Yes,17,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,80.85,1400.85,1,1,0.6935529771070624,True Positive,val
+0,Yes,Yes,1,DSL,No,No,Yes,No,No,No,Month-to-month,No,Mailed check,50.45,50.45,1,1,0.6943331295838044,True Positive,val
+0,No,No,47,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,106.4,5127.95,1,1,0.700127581717579,True Positive,val
+0,No,No,1,DSL,No,No,No,No,No,No,Month-to-month,No,Mailed check,45.95,45.95,1,1,0.7088431063201771,True Positive,val
+0,No,No,13,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,No,Electronic check,89.4,1132.35,1,1,0.7110812877059037,True Positive,val
+0,No,No,13,Fiber optic,Yes,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,96.65,1244.5,1,1,0.7144283882302493,True Positive,val
+0,No,No,2,DSL,No,No,No,No,No,No,Month-to-month,No,Electronic check,45.35,89.5,1,1,0.7157608432945725,True Positive,val
+1,No,No,36,Fiber optic,Yes,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,90.85,3186.7,1,1,0.716349020294384,True Positive,val
+0,No,Yes,12,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),73.75,871.4,1,1,0.7191072641709597,True Positive,val
+0,No,No,13,Fiber optic,No,No,No,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,99.0,1301.7,1,1,0.7227353067074898,True Positive,val
+0,No,No,2,DSL,Yes,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,42.6,72.4,1,1,0.7246456984549889,True Positive,val
+0,No,No,3,DSL,No,No,No,No,No,No,Month-to-month,No,Electronic check,25.25,58.9,1,1,0.7365426942807316,True Positive,val
+1,Yes,No,53,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,101.9,5549.4,1,1,0.7371276010697733,True Positive,val
+1,No,No,41,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,113.2,4689.5,1,1,0.7407018671054967,True Positive,val
+1,Yes,No,38,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),74.95,2869.85,1,1,0.7435606937783736,True Positive,val
+0,No,Yes,22,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,89.4,2001.5,1,1,0.7443707852707572,True Positive,val
+0,Yes,Yes,21,Fiber optic,No,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,102.8,2110.15,1,1,0.7452606763598764,True Positive,val
+0,No,No,3,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,43.3,123.65,1,1,0.7481088900542603,True Positive,val
+0,No,No,22,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,No,Electronic check,89.25,1907.85,1,1,0.7523613919490822,True Positive,val
+1,No,No,2,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Credit card (automatic),56.55,118.25,0,0,0.6714366239388719,True Negative,val
+0,No,No,35,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,83.15,2848.45,0,0,0.6713256015744989,True Negative,val
+0,No,No,25,Fiber optic,Yes,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,105.5,2686.05,0,0,0.6684793425216607,True Negative,val
+0,No,No,21,Fiber optic,No,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),99.15,1956.4,0,0,0.6636936286770884,True Negative,val
+0,Yes,No,45,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),107.75,4882.8,0,0,0.6611437674825001,True Negative,val
+0,No,No,18,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Mailed check,74.15,1387.0,0,0,0.6580531556507813,True Negative,val
+1,No,Yes,33,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),105.35,3465.05,0,0,0.65710350163295,True Negative,val
+0,Yes,No,60,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,106.15,6411.25,0,0,0.6567405420351131,True Negative,val
+0,Yes,No,3,DSL,No,No,Yes,Yes,No,No,Month-to-month,Yes,Mailed check,55.8,154.55,0,0,0.6564717493797981,True Negative,val
+0,No,No,26,Fiber optic,No,No,Yes,Yes,No,No,Month-to-month,Yes,Mailed check,84.3,2281.6,0,0,0.6527707791366572,True Negative,val
+1,Yes,No,63,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,103.5,6479.4,0,0,0.6511363049442399,True Negative,val
+0,No,No,37,Fiber optic,Yes,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,91.15,3369.25,0,0,0.6493623387874203,True Negative,val
+0,Yes,Yes,38,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),101.15,3956.7,0,0,0.6490653969165057,True Negative,val
+1,No,No,7,DSL,Yes,No,No,No,No,No,Month-to-month,Yes,Electronic check,48.2,340.35,0,0,0.6462941218848088,True Negative,val
+0,No,No,44,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,111.5,4915.15,0,0,0.6416178941311972,True Negative,val
+0,Yes,Yes,18,Fiber optic,Yes,No,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,87.9,1500.5,0,0,0.6342033680737921,True Negative,val
+0,No,No,15,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,49.0,749.25,0,0,0.6324316514688413,True Negative,val
+0,Yes,Yes,4,DSL,No,No,No,No,No,No,Month-to-month,No,Electronic check,44.8,169.65,0,0,0.6305037558902763,True Negative,val
+1,Yes,No,13,DSL,No,No,No,No,Yes,Yes,Month-to-month,No,Electronic check,45.3,528.45,0,0,0.6301301210047311,True Negative,val
+0,No,No,24,Fiber optic,Yes,No,No,Yes,No,No,Month-to-month,Yes,Electronic check,84.35,1938.05,0,0,0.626975032293809,True Negative,val
+0,No,No,38,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),69.5,2625.25,0,1,0.6761257412110953,False Positive,val
+1,No,No,20,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Bank transfer (automatic),80.7,1614.2,0,1,0.6763353453313159,False Positive,val
+0,No,Yes,1,DSL,No,No,No,No,No,No,Month-to-month,No,Mailed check,24.2,24.2,0,1,0.678308009820733,False Positive,val
+1,Yes,No,60,Fiber optic,No,No,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,99.0,6017.9,0,1,0.6788537761096728,False Positive,val
+1,Yes,No,25,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,No,Bank transfer (automatic),88.4,2191.15,0,1,0.6793998309746568,False Positive,val
+1,Yes,No,20,Fiber optic,No,No,No,No,Yes,Yes,One year,Yes,Bank transfer (automatic),91.0,1859.5,0,1,0.6799601568633193,False Positive,val
+0,No,No,7,Fiber optic,No,Yes,No,No,Yes,Yes,One year,Yes,Mailed check,94.05,633.45,0,1,0.6816462431861197,False Positive,val
+0,Yes,No,3,DSL,No,No,No,No,No,No,Month-to-month,No,Mailed check,25.0,78.25,0,1,0.6854944384231971,False Positive,val
+0,Yes,No,32,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),98.85,3145.9,0,1,0.6857102830721623,False Positive,val
+0,No,Yes,18,Fiber optic,No,No,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),80.55,1406.65,0,1,0.6908199768894369,False Positive,val
+0,Yes,No,23,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,No,Electronic check,84.25,1968.1,0,1,0.6940910410415895,False Positive,val
+0,No,No,1,DSL,Yes,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),49.8,49.8,0,1,0.6941644891858963,False Positive,val
+0,Yes,Yes,32,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,86.1,2723.75,0,1,0.7025349018939876,False Positive,val
+0,No,No,42,Fiber optic,No,No,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,100.3,4222.95,0,1,0.7033012827575185,False Positive,val
+0,No,Yes,13,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),78.3,1033.95,0,1,0.708457534068564,False Positive,val
+0,No,No,1,DSL,No,No,No,No,No,No,Month-to-month,No,Mailed check,44.75,44.75,0,1,0.7088431063201771,False Positive,val
+0,Yes,No,34,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Electronic check,100.85,3527.3,0,1,0.7096202724325541,False Positive,val
+0,Yes,No,31,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),83.85,2674.15,0,1,0.710212471545146,False Positive,val
+1,Yes,No,43,Fiber optic,No,Yes,No,Yes,Yes,No,Month-to-month,Yes,Electronic check,94.3,3953.15,0,1,0.7108647129717411,False Positive,val
+0,No,No,7,DSL,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,66.85,458.1,0,1,0.7117900328177542,False Positive,val
+0,No,No,13,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,23.9,300.8,1,0,0.671934783809634,False Negative,val
+0,Yes,Yes,18,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Mailed check,95.15,1779.95,1,0,0.6597423312623344,False Negative,val
+0,No,No,15,Fiber optic,Yes,Yes,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),99.1,1426.4,1,0,0.648724754267711,False Negative,val
+0,No,No,3,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Mailed check,49.9,130.1,1,0,0.6472072391621032,False Negative,val
+0,No,No,10,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Mailed check,33.9,298.45,1,0,0.6457615726249495,False Negative,val
+1,Yes,No,25,Fiber optic,Yes,No,No,No,No,Yes,One year,Yes,Electronic check,89.05,2177.45,1,0,0.6416360039031362,False Negative,val
+0,Yes,Yes,25,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),89.15,2257.75,1,0,0.6260141860651574,False Negative,val
+0,No,No,34,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Mailed check,109.8,3587.25,1,0,0.6221602477418247,False Negative,val
+0,No,No,12,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),81.7,858.6,1,0,0.6174693342144739,False Negative,val
+0,Yes,Yes,19,Fiber optic,No,No,No,Yes,Yes,Yes,One year,Yes,Electronic check,100.95,1875.55,1,0,0.6046380128314547,False Negative,val
+1,No,No,40,Fiber optic,Yes,Yes,No,No,No,No,Month-to-month,Yes,Credit card (automatic),79.2,3233.85,1,0,0.600984529252621,False Negative,val
+1,Yes,No,2,DSL,No,Yes,No,No,No,No,Month-to-month,No,Credit card (automatic),50.15,115.1,1,0,0.6008067108075826,False Negative,val
+1,No,No,46,Fiber optic,Yes,No,No,No,No,Yes,Month-to-month,No,Electronic check,85.0,3969.4,1,0,0.5973930494938974,False Negative,val
+0,No,No,23,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Bank transfer (automatic),75.6,1758.6,1,0,0.5865961336626714,False Negative,val
+0,Yes,Yes,1,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,21.0,21.0,1,0,0.5796053996829559,False Negative,val
+1,Yes,No,24,DSL,No,No,Yes,No,No,Yes,Month-to-month,Yes,Credit card (automatic),40.65,933.3,1,0,0.5722576888418567,False Negative,val
+0,Yes,No,42,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,50.25,2203.65,1,0,0.5491328546372127,False Negative,val
+0,No,No,3,DSL,No,No,No,No,Yes,No,Month-to-month,No,Credit card (automatic),35.2,108.95,1,0,0.5450620266950188,False Negative,val
+0,Yes,No,4,DSL,No,No,No,Yes,No,No,Month-to-month,No,Mailed check,50.05,179.35,1,0,0.5405987034946281,False Negative,val
+0,Yes,No,55,Fiber optic,Yes,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,96.75,5238.9,1,0,0.539054415772166,False Negative,val

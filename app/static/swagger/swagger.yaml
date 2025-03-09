@@ -1,0 +1,124 @@
+openapi: 3.0.0
+info:
+  title: Prediction API
+  description: API for making predictions based on input data.
+  version: 1.0.0
+paths:
+  /inference/predict:
+    post:
+      summary: Make predictions
+      description: Accepts a list of customer records and returns predictions.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: object
+                properties:
+                  customerID:
+                    type: string
+                  gender:
+                    type: string
+                  SeniorCitizen:
+                    type: integer
+                  Partner:
+                    type: string
+                  Dependents:
+                    type: string
+                  tenure:
+                    type: integer
+                  PhoneService:
+                    type: string
+                  MultipleLines:
+                    type: string
+                  InternetService:
+                    type: string
+                  OnlineSecurity:
+                    type: string
+                  OnlineBackup:
+                    type: string
+                  DeviceProtection:
+                    type: string
+                  TechSupport:
+                    type: string
+                  StreamingTV:
+                    type: string
+                  StreamingMovies:
+                    type: string
+                  Contract:
+                    type: string
+                  PaperlessBilling:
+                    type: string
+                  PaymentMethod:
+                    type: string
+                  MonthlyCharges:
+                    type: number
+                  TotalCharges:
+                    type: number
+                  Churn:
+                    type: integer
+                required:
+                  - customerID
+                  - gender
+                  - SeniorCitizen
+                  - Partner
+                  - Dependents
+                  - tenure
+                  - PhoneService
+                  - MultipleLines
+                  - InternetService
+                  - OnlineSecurity
+                  - OnlineBackup
+                  - DeviceProtection
+                  - TechSupport
+                  - StreamingTV
+                  - StreamingMovies
+                  - Contract
+                  - PaperlessBilling
+                  - PaymentMethod
+                  - MonthlyCharges
+                  - TotalCharges
+                  - Churn
+      responses:
+        '200':
+          description: Successful response with predictions
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  predictions:
+                    type: array
+                    items:
+                      type: number
+        '400':
+          description: Bad request, invalid input
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+  /health:
+    get:
+      summary: Health check
+      description: Returns a simple HTML page to check if the service is running.
+      responses:
+        '200':
+          description: Service is running
+          content:
+            text/html:
+              schema:
+                type: string

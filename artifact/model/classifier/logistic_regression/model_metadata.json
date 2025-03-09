@@ -1,0 +1,4 @@
+{
+    "model_name": "LogisticRegression(C=2.8890798850225052,\n                   class_weight={0: 0.6805991785455424, 1: 1.8842809364548494},\n                   random_state=42, solver='liblinear')",
+    "cut_off_threshold": 0.6735464925822161
+}
